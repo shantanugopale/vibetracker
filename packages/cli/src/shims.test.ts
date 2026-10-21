@@ -11,8 +11,13 @@ let originalPath: string | undefined
 beforeEach(async () => {
   worktree = await mkdtemp(path.join(tmpdir(), "vibetracker-shims-"))
   fakeBin = await mkdtemp(path.join(tmpdir(), "vibetracker-fakebin-"))
-  await writeFile(path.join(fakeBin, "opencode.cmd"), "@echo off", "utf8")
-  await writeFile(path.join(fakeBin, "claude.cmd"), "@echo off", "utf8")
+  // both variants so the fixture works on Windows (.cmd) and POSIX (extensionless)
+  await Promise.all([
+    writeFile(path.join(fakeBin, "opencode.cmd"), "@echo off", "utf8"),
+    writeFile(path.join(fakeBin, "opencode"), "#!/bin/sh\n", "utf8"),
+    writeFile(path.join(fakeBin, "claude.cmd"), "@echo off", "utf8"),
+    writeFile(path.join(fakeBin, "claude"), "#!/bin/sh\n", "utf8"),
+  ])
   originalPath = process.env.PATH
   process.env.PATH = `${fakeBin}${path.delimiter}${originalPath ?? ""}`
 })

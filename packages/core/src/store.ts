@@ -153,7 +153,7 @@ export async function saveLog(
   name: string,
   contents: string,
 ): Promise<string> {
-  const safeName = path.basename(name)
+  const safeName = path.basename(name.replace(/[\\/]+/g, "/"))
   const file = resolveInside(worktree, DIR, LOGS_DIR, safeName)
   await mkdir(path.dirname(file), { recursive: true })
   await writeFile(file, contents, "utf8")
