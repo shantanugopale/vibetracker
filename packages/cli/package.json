@@ -16,7 +16,9 @@
     "build": "tsc -b"
   },
   "dependencies": {
+    "@hono/node-server": "^1.19.17",
     "@vibetracker/core": "*",
-    "@vibetracker/engines": "*"
+    "@vibetracker/engines": "*",
+    "hono": "^4.13.13"
   }
 }

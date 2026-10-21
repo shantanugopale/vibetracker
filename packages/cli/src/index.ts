@@ -21,6 +21,7 @@ export async function dispatch(
         quiet: { type: "boolean", default: false },
         interval: { type: "string", default: "2000" },
         "skip-hooks": { type: "boolean", default: false },
+        port: { type: "string", default: "4321" },
         help: { type: "boolean", short: "h", default: false },
       },
     })
@@ -88,6 +89,18 @@ export async function dispatch(
       const result = await releaseProject(cwd)
       console.log(result.message)
       return result.ok ? 0 : 1
+    }
+    case "serve": {
+      const port = Number(parsed.values.port ?? 4321)
+      if (!Number.isInteger(port) || port < 1 || port > 65535) {
+        console.error("--port must be an integer between 1 and 65535")
+        return 1
+      }
+      const { startDashboardServer } = await import("./server.js")
+      const server = await startDashboardServer(cwd, { port })
+      console.log(`dashboard running at ${server.url}`)
+      await new Promise(() => {})
+      return 0
     }
     default:
       console.error(`unknown command: ${command}`)

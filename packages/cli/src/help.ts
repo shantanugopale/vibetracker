@@ -10,10 +10,12 @@ export function helpText(): string {
     "  verify-now    run configured quality gates and update state",
     "  watch         audit automatically on every new commit",
     "  release       write .vibetracker/report.json release snapshot",
+    "  serve         serve the live progress dashboard on localhost",
     "",
     "Options:",
     "  --quiet        suppress detailed output",
     "  --interval <ms>  watch polling interval (default 2000)",
+    "  --port <n>     serve: dashboard port (default 4321)",
     "  --skip-hooks   init: skip agent shim installation",
     "  -h, --help     show this help",
   ].join("\n")
