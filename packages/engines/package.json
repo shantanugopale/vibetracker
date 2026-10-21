@@ -1,7 +1,6 @@
 {
   "name": "@vibetracker/engines",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -21,6 +20,17 @@
     "build": "tsc -b"
   },
   "dependencies": {
-    "@vibetracker/core": "*"
+    "@vibetracker/core": "^0.1.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanugopale/vibetracker.git",
+    "directory": "packages/engines"
+  },
+  "description": "Quality gate runner, git watcher, and audit orchestration for VibeTracker",
+  "homepage": "https://github.com/shantanugopale/vibetracker#readme",
+  "bugs": {
+    "url": "https://github.com/shantanugopale/vibetracker/issues"
   }
 }

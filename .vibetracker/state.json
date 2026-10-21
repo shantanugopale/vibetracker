@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:03:10.235Z",
+  "updatedAt": "2026-10-21T19:14:38.448Z",
   "criteria": {
     "t0.1:c1": {
       "status": "verified",
@@ -883,6 +883,27 @@
       ],
       "updatedAt": "2026-10-21T19:03:10.235Z",
       "verifiedAt": "2026-10-21T19:03:10.235Z"
+    },
+    "t6.2:c2": {
+      "status": "verified",
+      "evidence": [
+        {
+          "type": "gate",
+          "gate": "typecheck",
+          "code": 0,
+          "ref": ".vibetracker/logs/2026-10-21T19-14-27-184Z-typecheck.log",
+          "selfClaimed": false
+        },
+        {
+          "type": "gate",
+          "gate": "test",
+          "code": 0,
+          "ref": ".vibetracker/logs/2026-10-21T19-14-38-438Z-test.log",
+          "selfClaimed": false
+        }
+      ],
+      "updatedAt": "2026-10-21T19:14:38.448Z",
+      "verifiedAt": "2026-10-21T19:14:38.448Z"
     }
   }
 }

@@ -1,7 +1,6 @@
 {
   "name": "@vibetracker/core",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -22,5 +21,16 @@
   },
   "dependencies": {
     "zod": "^4.6.7"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanugopale/vibetracker.git",
+    "directory": "packages/core"
+  },
+  "description": "Domain model, parser, state machine, and append-only attempt log for VibeTracker",
+  "homepage": "https://github.com/shantanugopale/vibetracker#readme",
+  "bugs": {
+    "url": "https://github.com/shantanugopale/vibetracker/issues"
   }
 }

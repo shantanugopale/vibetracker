@@ -1,7 +1,6 @@
 {
   "name": "@vibetracker/cli",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -22,9 +21,20 @@
     "build": "tsc -b"
   },
   "dependencies": {
-    "@hono/node-server": "^1.19.17",
-    "@vibetracker/core": "*",
-    "@vibetracker/engines": "*",
-    "hono": "^4.13.13"
+    "@hono/node-server": "^1.13.0",
+    "@vibetracker/core": "^0.1.0",
+    "@vibetracker/engines": "^0.1.0",
+    "hono": "^4.6.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanugopale/vibetracker.git",
+    "directory": "packages/cli"
+  },
+  "description": "Track your vibe-coding progress: roadmap parser, quality gates, live dashboard",
+  "homepage": "https://github.com/shantanugopale/vibetracker#readme",
+  "bugs": {
+    "url": "https://github.com/shantanugopale/vibetracker/issues"
   }
 }

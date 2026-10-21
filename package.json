@@ -11,7 +11,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "tsc -b && npm run build -w @vibetracker/dashboard",
+    "build": "tsc -b && npm run build -w @vibetracker/dashboard && node packages/cli/scripts/copy-web.mjs",
     "typecheck": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest"

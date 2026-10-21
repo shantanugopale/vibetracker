@@ -1,7 +1,6 @@
 {
   "name": "@vibetracker/mcp",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -25,12 +24,17 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
-    "@vibetracker/cli": "*",
-    "@vibetracker/core": "*",
     "zod": "^4.6.7"
   },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.32.1",
-    "zod": "^4.6.7"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanugopale/vibetracker.git",
+    "directory": "packages/mcp"
+  },
+  "description": "MCP stdio server exposing VibeTracker track/verify tools to AI agents",
+  "homepage": "https://github.com/shantanugopale/vibetracker#readme",
+  "bugs": {
+    "url": "https://github.com/shantanugopale/vibetracker/issues"
   }
 }

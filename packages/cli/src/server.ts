@@ -197,11 +197,7 @@ export function createDashboardApp(
 function resolveStaticRoot(): string | null {
   const fromEnv = process.env.VT_WEB_ROOT
   if (fromEnv) return path.resolve(fromEnv)
-  const bundled = path.resolve(
-    import.meta.dirname ?? ".",
-    "../../dashboard/dist",
-  )
-  return path.resolve(bundled)
+  return path.resolve(import.meta.dirname ?? ".", "web")
 }
 
 export type DashboardServer = {
