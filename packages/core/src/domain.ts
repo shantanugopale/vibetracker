@@ -16,6 +16,10 @@ export type CriterionStatus = (typeof CRITERION_STATUSES)[number]
 
 export const CriterionStatusSchema = z.enum(CRITERION_STATUSES)
 
+export const GATE_TYPES = ["lint", "typecheck", "test"] as const
+
+export type GateType = (typeof GATE_TYPES)[number]
+
 export const EvidenceTypeSchema = z.enum(["gate", "engine", "manual"])
 
 export type EvidenceType = z.infer<typeof EvidenceTypeSchema>

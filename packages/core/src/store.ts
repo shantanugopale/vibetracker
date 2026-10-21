@@ -24,6 +24,7 @@ export type AuditEntry = {
 const DIR = ".vibetracker"
 const STATE_FILE = "state.json"
 const AUDIT_DIR = "audit"
+const LOGS_DIR = "logs"
 const LOCK_FILE = "state.lock"
 const STALE_LOCK_MS = 10_000
 const RENAME_RETRIES = 5
@@ -144,6 +145,18 @@ export async function appendAudit(
   } finally {
     await handle.close()
   }
+  return path.relative(path.resolve(worktree), file).split(path.sep).join("/")
+}
+
+export async function saveLog(
+  worktree: string,
+  name: string,
+  contents: string,
+): Promise<string> {
+  const safeName = path.basename(name)
+  const file = resolveInside(worktree, DIR, LOGS_DIR, safeName)
+  await mkdir(path.dirname(file), { recursive: true })
+  await writeFile(file, contents, "utf8")
   return path.relative(path.resolve(worktree), file).split(path.sep).join("/")
 }
 

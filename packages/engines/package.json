@@ -19,5 +19,8 @@
   ],
   "scripts": {
     "build": "tsc -b"
+  },
+  "dependencies": {
+    "@vibetracker/core": "*"
   }
 }
