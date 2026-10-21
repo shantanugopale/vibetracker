@@ -10,6 +10,7 @@ export function helpText(): string {
     "  verify-now    run configured quality gates and update state",
     "  watch         audit automatically on every new commit",
     "  release       write .vibetracker/report.json release snapshot",
+    "  export        write .vibetracker/badge.svg and .vibetracker/report.html",
     "  serve         serve the live progress dashboard on localhost",
     "",
     "Options:",

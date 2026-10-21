@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsc -b && npm run build -w @vibetracker/dashboard",
+    "typecheck": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest"
   },

@@ -94,6 +94,21 @@ export async function dispatch(
       console.log(result.message)
       return result.ok ? 0 : 1
     }
+    case "export": {
+      const { exportBadge, exportHtmlReport } = await import("./badge.js")
+      const badge = await exportBadge(cwd)
+      if (!badge.ok) {
+        console.error(badge.message)
+        return 1
+      }
+      const html = await exportHtmlReport(cwd)
+      if (!html.ok) {
+        console.error(html.message)
+        return 1
+      }
+      console.log(`${badge.message}\n${html.message}`)
+      return 0
+    }
     case "serve": {
       const port = Number(parsed.values.port ?? 4321)
       if (!Number.isInteger(port) || port < 1 || port > 65535) {

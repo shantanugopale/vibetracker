@@ -2,7 +2,7 @@ import { mkdtemp, rm, readFile } from "node:fs/promises"
 import { tmpdir } from "node:os"
 import path from "node:path"
 import { afterEach, beforeEach, describe, expect, it } from "vitest"
-import { runGate, resolveExecutable, type GateSpec } from "./gate.js"
+import { runGate, resolveExecutable, BatchCommandError, type GateSpec } from "./gate.js"
 
 let worktree: string
 
@@ -50,6 +50,25 @@ describe("gate runner (task 2.1, 2.2)", () => {
     expect(result.output).toContain("ENOENT")
     const actuallyExecuted = result.output.split("[spawn error]")[0] ?? ""
     expect(actuallyExecuted).not.toContain("pwned")
+  })
+
+  it("refuses .cmd/.bat shim commands instead of raw EINVAL (S-1, batBadBut)", { skip: process.platform !== "win32" }, async () => {
+    await expect(
+      runGate(worktree, {
+        type: "test",
+        command: "npm",
+        args: ["--version"],
+        timeoutMs: 5000,
+      }),
+    ).rejects.toThrow(/\.cmd/)
+    await expect(() =>
+      runGate(worktree, {
+        type: "test",
+        command: "npm",
+        args: ["--version"],
+        timeoutMs: 5000,
+      }),
+    ).rejects.toBeInstanceOf(BatchCommandError)
   })
 
   it("reports failing gates with exit code evidence (task 2.2)", async () => {

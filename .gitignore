@@ -4,5 +4,8 @@ coverage/
 *.tsbuildinfo
 .vibetracker/*.lock
 .vibetracker/tmp/
+.vibetracker/logs/
+.vibetracker/report.json
+.vibetracker/report.html
 .env
 .env.*

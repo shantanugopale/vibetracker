@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "gates": {
+    "typecheck": {
+      "command": "node",
+      "args": [
+        "node_modules/typescript/bin/tsc",
+        "-b"
+      ]
+    },
+    "test": {
+      "command": "node",
+      "args": [
+        "node_modules/vitest/vitest.mjs",
+        "run"
+      ]
+    }
+  }
+}

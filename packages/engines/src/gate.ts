@@ -4,6 +4,15 @@ import path from "node:path"
 import { saveLog } from "@vibetracker/core"
 import type { GateType } from "@vibetracker/core"
 
+export class BatchCommandError extends Error {
+  constructor(command: string) {
+    super(
+      `gate command resolves to a .cmd/.bat shim: ${command} — batch files cannot be spawned without a shell (S-1, batBadBut CVE-2024-27980). Invoke the underlying script with node directly, e.g. {"command":"node","args":["node_modules/vitest/vitest.mjs","run"]}`,
+    )
+    this.name = "BatchCommandError"
+  }
+}
+
 export type GateSpec = {
   type: GateType
   command: string
@@ -34,7 +43,7 @@ export function findExecutable(
     }
   }
   const exts =
-    process.platform === "win32" ? [".cmd", ".exe", ".bat", ""] : [""]
+    process.platform === "win32" ? [".exe", ".cmd", ".bat"] : [""]
   const pathEnv = process.env.PATH?.split(path.delimiter) ?? []
   for (const dir of [...extraDirs, ...pathEnv]) {
     for (const ext of exts) {
@@ -98,6 +107,9 @@ export async function runGate(
   const file = resolveExecutable(spec.command, [
     path.join(worktree, "node_modules", ".bin"),
   ])
+  if (/\.(cmd|bat)$/i.test(file)) {
+    throw new BatchCommandError(spec.command)
+  }
   const timeoutMs = spec.timeoutMs ?? DEFAULT_TIMEOUT_MS
   const { exitCode, stdout, stderr } = await captureSpawn(file, spec.args, {
     cwd: worktree,
