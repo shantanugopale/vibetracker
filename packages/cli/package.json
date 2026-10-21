@@ -16,6 +16,7 @@
     "build": "tsc -b"
   },
   "dependencies": {
-    "@vibetracker/core": "*"
+    "@vibetracker/core": "*",
+    "@vibetracker/engines": "*"
   }
 }
