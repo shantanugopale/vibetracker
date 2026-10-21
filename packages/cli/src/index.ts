@@ -8,6 +8,10 @@ import { loadRoadmap, renderStatus } from "./status.js"
 import { runAuditReported } from "./verify.js"
 import { watchLoop } from "./watch.js"
 
+export { loadRoadmap, renderStatus, statusCounts } from "./status.js"
+export { initProject, ROADMAP_TEMPLATE } from "./init.js"
+export { runAuditReported, type VerifyReport } from "./verify.js"
+
 export async function dispatch(
   argv: string[],
   cwd = process.cwd(),
