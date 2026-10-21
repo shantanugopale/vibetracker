@@ -1,6 +1,7 @@
 name: publish
 
 on:
+  workflow_dispatch:
   push:
     tags: ["v*"]
 
@@ -10,6 +11,8 @@ jobs:
     permissions:
       contents: write
       id-token: write
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,15 +22,45 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
-      - name: publish packages (dependency order)
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      - name: check package versions match the pushed tag
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"
+          node -e "
+            const tag = process.argv[1].slice(1)
+            for (const p of ['core', 'engines', 'cli', 'mcp']) {
+              const version = require('./packages/' + p + '/package.json').version
+              if (version !== tag) {
+                console.error('@vibetracker/' + p + ' version ' + version + ' != tag ' + process.argv[1])
+                process.exit(1)
+              }
+            }
+            console.log('all packages at ' + tag + ' ✓')
+          " "$TAG"
+
+      - name: create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+
+      - name: npm publish (dependency order)
+        if: ${{ env.NPM_TOKEN != '' }}
         run: |
           npm publish --access public --provenance -w @vibetracker/core
           npm publish --access public --provenance -w @vibetracker/engines
           npm publish --access public --provenance -w @vibetracker/cli
           npm publish --access public --provenance -w @vibetracker/mcp
-      - name: create GitHub release
-        uses: softprops/action-gh-release@v2
-        with:
-          generate_release_notes: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      - name: summarize
+        run: |
+          if [ -z "$NPM_TOKEN" ]; then
+            echo "### npm publish skipped" >> "$GITHUB_STEP_SUMMARY"
+            echo "NPM_AUTH_TOKEN secret is not set. Add it with:" >> "$GITHUB_STEP_SUMMARY"
+            echo "\`npm login; npm token create; gh secret set NPM_AUTH_TOKEN -R shantanugopale/vibetracker\`, then re-run this workflow." >> "$GITHUB_STEP_SUMMARY"
+            echo "GitHub release was still created ✓" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### published to npmjs ✓" >> "$GITHUB_STEP_SUMMARY"
+          fi
