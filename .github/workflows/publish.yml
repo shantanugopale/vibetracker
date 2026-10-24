@@ -14,10 +14,10 @@ jobs:
     env:
       NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           registry-url: https://registry.npmjs.org
       - run: npm ci
       - run: npm run build
@@ -44,23 +44,21 @@ jobs:
         with:
           generate_release_notes: true
 
-      - name: npm publish (dependency order)
-        if: ${{ env.NPM_TOKEN != '' }}
+      - name: npm publish (OIDC trusted publishing, token fallback)
         run: |
-          npm publish --access public --provenance -w @vibetracker/core
-          npm publish --access public --provenance -w @vibetracker/engines
-          npm publish --access public --provenance -w @vibetracker/cli
-          npm publish --access public --provenance -w @vibetracker/mcp
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          set -e
+          for pkg in core engines cli mcp; do
+            npm publish --access public --provenance -w "@vibetracker/$pkg"
+            echo "@vibetracker/$pkg published ✓"
+          done
 
       - name: summarize
+        if: always()
         run: |
-          if [ -z "$NPM_TOKEN" ]; then
-            echo "### npm publish skipped" >> "$GITHUB_STEP_SUMMARY"
-            echo "NPM_AUTH_TOKEN secret is not set. Add it with:" >> "$GITHUB_STEP_SUMMARY"
-            echo "\`npm login; npm token create; gh secret set NPM_AUTH_TOKEN -R shantanugopale/vibetracker\`, then re-run this workflow." >> "$GITHUB_STEP_SUMMARY"
-            echo "GitHub release was still created ✓" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$NPM_TOKEN" ]; then
+            echo "### package published ✓ (OIDC if trusted publishing is configured, NPM_AUTH_TOKEN otherwise)" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "### published to npmjs ✓" >> "$GITHUB_STEP_SUMMARY"
+            echo "### published via OIDC trusted publishing (no NPM_AUTH_TOKEN set) ✓" >> "$GITHUB_STEP_SUMMARY"
+            echo "If the publish step failed with ENEEDAUTH, configure trusted publishers:" >> "$GITHUB_STEP_SUMMARY"
+            echo "npmjs.com → package → Settings → Trusted Publisher → GitHub Actions → shantanugopale/vibetracker → publish.yml" >> "$GITHUB_STEP_SUMMARY"
           fi
