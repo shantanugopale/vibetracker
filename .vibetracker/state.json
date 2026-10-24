@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:14:38.448Z",
+  "updatedAt": "2026-10-24T11:25:53.967Z",
   "criteria": {
     "t0.1:c1": {
       "status": "verified",
@@ -9,19 +9,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.1:c2": {
       "status": "verified",
@@ -30,19 +30,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.1:c3": {
       "status": "verified",
@@ -51,19 +51,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.2:c1": {
       "status": "verified",
@@ -72,19 +72,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.2:c2": {
       "status": "verified",
@@ -93,19 +93,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.3:c1": {
       "status": "verified",
@@ -114,19 +114,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.3:c2": {
       "status": "verified",
@@ -135,19 +135,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t0.3:c3": {
       "status": "verified",
@@ -156,19 +156,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.1:c1": {
       "status": "verified",
@@ -177,19 +177,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.1:c2": {
       "status": "verified",
@@ -198,19 +198,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.2:c1": {
       "status": "verified",
@@ -219,19 +219,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.2:c2": {
       "status": "verified",
@@ -240,19 +240,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.2:c3": {
       "status": "verified",
@@ -261,19 +261,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.3:c1": {
       "status": "verified",
@@ -282,19 +282,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.3:c2": {
       "status": "verified",
@@ -303,19 +303,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.4:c1": {
       "status": "verified",
@@ -324,19 +324,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.4:c2": {
       "status": "verified",
@@ -345,19 +345,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t1.4:c3": {
       "status": "verified",
@@ -366,19 +366,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.1:c1": {
       "status": "verified",
@@ -387,19 +387,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.1:c2": {
       "status": "verified",
@@ -408,19 +408,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.1:c3": {
       "status": "verified",
@@ -429,19 +429,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.2:c1": {
       "status": "verified",
@@ -450,19 +450,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.2:c2": {
       "status": "verified",
@@ -471,19 +471,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.3:c1": {
       "status": "verified",
@@ -492,19 +492,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t2.3:c2": {
       "status": "verified",
@@ -513,19 +513,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.1:c1": {
       "status": "verified",
@@ -534,19 +534,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.1:c2": {
       "status": "verified",
@@ -555,19 +555,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.2:c1": {
       "status": "verified",
@@ -576,19 +576,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.2:c2": {
       "status": "verified",
@@ -597,19 +597,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.3:c1": {
       "status": "verified",
@@ -618,19 +618,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t3.3:c2": {
       "status": "verified",
@@ -639,19 +639,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t4.1:c1": {
       "status": "verified",
@@ -660,19 +660,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t4.1:c2": {
       "status": "verified",
@@ -681,19 +681,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t4.2:c1": {
       "status": "verified",
@@ -702,19 +702,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t4.2:c2": {
       "status": "verified",
@@ -723,19 +723,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t5.1:c1": {
       "status": "verified",
@@ -744,19 +744,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t5.1:c2": {
       "status": "verified",
@@ -765,19 +765,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t5.2:c1": {
       "status": "verified",
@@ -786,19 +786,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t5.2:c2": {
       "status": "verified",
@@ -807,19 +807,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t6.1:c1": {
       "status": "verified",
@@ -828,19 +828,19 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t6.1:c2": {
       "status": "verified",
@@ -849,40 +849,40 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-27-729Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-01-41-323Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:01:41.337Z",
-      "verifiedAt": "2026-10-21T19:01:41.337Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
-    "t6.2:c3": {
+    "t6.2:c1": {
       "status": "verified",
       "evidence": [
         {
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-02-56-278Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-03-10-219Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:03:10.235Z",
-      "verifiedAt": "2026-10-21T19:03:10.235Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     },
     "t6.2:c2": {
       "status": "verified",
@@ -891,19 +891,40 @@
           "type": "gate",
           "gate": "typecheck",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-14-27-184Z-typecheck.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
           "selfClaimed": false
         },
         {
           "type": "gate",
           "gate": "test",
           "code": 0,
-          "ref": ".vibetracker/logs/2026-10-21T19-14-38-438Z-test.log",
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
           "selfClaimed": false
         }
       ],
-      "updatedAt": "2026-10-21T19:14:38.448Z",
-      "verifiedAt": "2026-10-21T19:14:38.448Z"
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
+    },
+    "t6.2:c3": {
+      "status": "verified",
+      "evidence": [
+        {
+          "type": "gate",
+          "gate": "typecheck",
+          "code": 0,
+          "ref": ".vibetracker/logs/2026-10-24T11-25-32-183Z-typecheck.log",
+          "selfClaimed": false
+        },
+        {
+          "type": "gate",
+          "gate": "test",
+          "code": 0,
+          "ref": ".vibetracker/logs/2026-10-24T11-25-53-945Z-test.log",
+          "selfClaimed": false
+        }
+      ],
+      "updatedAt": "2026-10-24T11:25:53.967Z",
+      "verifiedAt": "2026-10-24T11:25:53.967Z"
     }
   }
 }

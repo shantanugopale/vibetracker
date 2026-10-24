@@ -4,6 +4,8 @@
 
 [![CI](https://github.com/shantanugopale/vibetracker/actions/workflows/ci.yml/badge.svg)](https://github.com/shantanugopale/vibetracker/actions/workflows/ci.yml)
 
+![VibeTracker demo](assets/demo.gif)
+
 Track your vibe-coding progress. Bring any AI — or none.
 
 VibeTracker audits your git commits against a markdown roadmap of phases,
@@ -14,8 +16,8 @@ needs.
 
 The badge above is **VibeTracker auditing itself** — this repo parses its own
 ROADMAP.md, runs its own quality gates, and regenerates that SVG from the
-result. Two criteria remain open on purpose: the GIF and the CI-driven npm
-publish (next milestone).
+result. All criteria are verified, including npm packages published from CI
+on a tag (v0.1.1) — the workflow is the same one your project can copy.
 
 - [PLAN.md](./PLAN.md) — end-to-end build plan (architecture, security, phases)
 - [ROADMAP.md](./ROADMAP.md) — VibeTracker's own roadmap, in the format it parses

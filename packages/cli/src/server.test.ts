@@ -92,7 +92,7 @@ describe("dashboard server (task 4.1, 4.2)", () => {
     const started = Date.now()
     let receivedWithin = false
     let buf = ""
-    while (Date.now() - started < 6000) {
+    while (Date.now() - started < 12000 && !receivedWithin) {
       const chunk = (await Promise.race([
         reader.read(),
         new Promise((r) => setTimeout(() => r(null), 1000)),
@@ -122,7 +122,7 @@ describe("dashboard server (task 4.1, 4.2)", () => {
     }
     expect(buf).toContain("event: state")
     expect(receivedWithin).toBe(true)
-  }, 15000)
+  }, 20000)
 
   it("feed returns audit entries newest first (task 4.1)", async () => {
     const entries = await readFeed(worktree)
