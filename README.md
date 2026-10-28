@@ -4,6 +4,8 @@
 
 [![CI](https://github.com/shantanugopale/vibetracker/actions/workflows/ci.yml/badge.svg)](https://github.com/shantanugopale/vibetracker/actions/workflows/ci.yml)
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/shantanugopale-vibetracker-etan7t?v=d010bfe77958e9454d166d3a6fbf0abe)](https://m8ven.ai/mcp/shantanugopale-vibetracker-etan7t?s=readme)
+
 ![VibeTracker demo](assets/demo.gif)
 
 Track your vibe-coding progress. Bring any AI — or none.
